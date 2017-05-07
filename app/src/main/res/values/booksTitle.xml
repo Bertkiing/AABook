@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="books_title">
+        <item>世界大变局</item>
+        <item>重建的世界</item>
+        <item>路畔的蔷薇</item>
+        <item>二战风云</item>
+        <item>HUMANS NEED,NOT APPLY</item>
+        <item>三体</item>
+        <item>Reinventing Yourself</item>
+        <item>Google 广告高阶优化</item>
+        <item>数学与生活</item>
+        <item>视界 互联网</item>
+    </string-array>
+
+    <string-array name="book_editors">
+        <item>阿甘</item>
+        <item>基辛格</item>
+        <item>郭沫若</item>
+        <item>雷锋</item>
+        <item>纸老虎</item>
+        <item>刘慈欣</item>
+        <item>高尔基</item>
+        <item>Google</item>
+        <item>数学家</item>
+        <item>互联网</item>
+    </string-array>
+</resources>

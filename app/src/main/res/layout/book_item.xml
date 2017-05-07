@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg_item"
+    >
+
+    <ImageView
+        android:id="@+id/iv_book"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/iv_book"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        >
+        <TextView
+            android:id="@+id/tv_bookTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="书名:天局"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_bookEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="作者：矫健"
+            android:layout_toRightOf="@id/iv_book"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

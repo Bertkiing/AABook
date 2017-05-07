@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="booksImg">
+        <item>@mipmap/ic_book1</item>
+        <item>@mipmap/ic_book2</item>
+        <item>@mipmap/ic_book3</item>
+        <item>@mipmap/ic_book4</item>
+        <item>@mipmap/ic_book5</item>
+        <item>@mipmap/ic_book6</item>
+        <item>@mipmap/ic_book7</item>
+        <item>@mipmap/ic_book8</item>
+        <item>@mipmap/ic_book9</item>
+        <item>@mipmap/ic_book10</item>
+    </array>
+</resources>
