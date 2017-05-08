@@ -18,6 +18,8 @@ allprojects {
         jcenter()
         mavenCentral()
         mavenLocal()
+        //DBFlow Required
+        maven { url "https://www.jitpack.io" }
     }
 }
 
