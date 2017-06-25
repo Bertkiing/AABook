@@ -113,4 +113,11 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         />
+
+    <bertking.com.useandroidannotations.view.AutoAdjustSizeEditText
+        android:id="@+id/et_autoAdjustSize"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        />
 </LinearLayout>

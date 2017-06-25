@@ -18,13 +18,13 @@ import org.androidannotations.annotations.EBean;
 public class User extends BaseModel {
     //DBFlow supports multiple primary keys
     @PrimaryKey(autoincrement = true)
-    long id;
+    Long id;
 
     @Column(defaultValue = "书童")
     String name;
 
     @Column(defaultValue = "0")
-    int readAge;//书令
+    Integer readAge;//书令
 
     @Column
     String userIcon;

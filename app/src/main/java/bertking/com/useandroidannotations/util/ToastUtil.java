@@ -8,6 +8,7 @@ import org.androidannotations.annotations.RootContext;
 
 import bertking.com.useandroidannotations.MyApp_;
 
+
 /**
  * Created by king on 2017/5/7.
  * 项目名称:UseAndroidAnnotations

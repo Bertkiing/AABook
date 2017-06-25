@@ -21,6 +21,7 @@ import org.androidannotations.annotations.WindowFeature;
 
 import bertking.com.useandroidannotations.R;
 import bertking.com.useandroidannotations.util.ToastUtil;
+import bertking.com.useandroidannotations.view.AutoAdjustSizeEditText;
 
 @WindowFeature(Window.FEATURE_NO_TITLE)
 @EActivity(R.layout.activity_main)
@@ -35,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
     @ViewById(R.id.btn_login)
     Button btn_login;
+
+    @ViewById(R.id.et_autoAdjustSize)
+    AutoAdjustSizeEditText et_adjustSize;
 
 //    @AfterViews
 //    public void setPhoneNumber(){
